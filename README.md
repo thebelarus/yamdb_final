@@ -1,5 +1,5 @@
+![example workflow](https://github.com/thebelarus/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 # Описание проекта YaMDb
-
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен администратором (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
 
 В каждой категории есть произведения: книги, фильмы или музыка. Например, в категории «Книги» могут быть произведения «Винни-Пух и все-все-все» и «Марсианские хроники», а в категории «Музыка» — песня «Давеча» группы «Насекомые» и вторая сюита Баха.
@@ -113,4 +113,6 @@ docker-compose up --build
 # Вполнить команду command в выполняющемся контейнере service name
 docker-compose exec [service name] [command]
 ```
-![example workflow](https://github.com/thebelarus/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
+#### Адрес развернутого сервера: ####
+[http://thebelarus.ga](http://thebelarus.ga)
